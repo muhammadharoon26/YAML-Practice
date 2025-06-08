@@ -1,21 +1,22 @@
-name : haroon
-age : 20
-server :
-  name : muhammadharoon26
-  capacity : 50GB
-social_media :
-  - linkedin-https://www.linkedin.com/in/muhammad-haroon-48676a2b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
-  - github-https://github.com/muhammadharoon26
-misc : |
+---
+age: 20
+list_of_servers:
+  - name: ec2
+    server_1: null
+    volume: 8GB
+  - name: fargate
+    server_2: null
+    volume: 5GB
+misc: |
   this
   is
   a
   multiline
   string
-list_of_servers :
-  - server_1 :
-    name : "ec2"
-    volume : 8GB
-  - server_2 :
-    name : "fargate"
-    volume : 5GB
+name: haroon
+server:
+  capacity: 50GB
+  name: muhammadharoon26
+social_media:
+  - linkedin-https://www.linkedin.com/in/muhammad-haroon-48676a2b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+  - github-https://github.com/muhammadharoon26
